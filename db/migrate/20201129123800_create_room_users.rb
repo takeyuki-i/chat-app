@@ -5,6 +5,5 @@ class CreateRoomUsers < ActiveRecord::Migration[6.0]
       t.references :user, foreign_key: true
       t.timestamps
     end
-    add_foreign_key :true
   end
 end
